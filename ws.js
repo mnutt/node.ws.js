@@ -12,7 +12,7 @@ function nano(template, data) {
 }
 
 var sys = require("sys"),
-  tcp = require("tcp"),
+  tcp = require("tcp_old"),
   headerExpressions = [
     /^GET (\/[^\s]*) HTTP\/1\.1$/,
     /^Upgrade: WebSocket$/,
